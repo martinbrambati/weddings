@@ -19,7 +19,7 @@
 define('DB_NAME', 'wedding');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', $_SERVER['OPENSHIFT_MYSQL_DB_USER']);
+define('DB_USER', $_SERVER['OPENSHIFT_MYSQL_DB_USERNAME']);
 
 /** Tu contraseña de MySQL */
 define('DB_PASSWORD', $_SERVER['OPENSHIFT_MYSQL_DB_PASSWORD']);
