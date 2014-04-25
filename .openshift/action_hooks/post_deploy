@@ -1,0 +1,3 @@
+#!/bin/sh
+
+mv /app-root/repo/wp-config-prod.php /app-root/repo/wp-config.php
