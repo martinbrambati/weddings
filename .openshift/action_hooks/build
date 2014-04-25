@@ -1,1 +1,4 @@
-echo build1
+#!/bin/sh
+echo moving config file
+mv $OPENSHIFT_HOMEDIR/app-root/repo/wp-config-prod.php $OPENSHIFT_HOMEDIR/app-root/repo/wp-config.php
+echo end moving file
