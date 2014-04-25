@@ -16,7 +16,7 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', $_SERVER['OPENSHIFT_MYSQL_DB_NAME']);
+define('DB_NAME', 'wedding');
 
 /** Tu nombre de usuario de MySQL */
 define('DB_USER', $_SERVER['OPENSHIFT_MYSQL_DB_USER']);
